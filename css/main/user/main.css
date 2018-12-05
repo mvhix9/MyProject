@@ -1,0 +1,65 @@
+.main {
+	margin-top: -21px;
+	position: relative;
+}
+
+.wrapper h2 {
+	font-family: Helvetica, Verdana, sans-serif;
+	text-align: center;
+	position: relative;
+	padding: 20px 0;
+	font-size: 36pt;
+	font-weight: normal;
+	color: #2D2D2D;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	line-height: 1.1;
+}
+
+.form-control { 
+	margin-bottom: 10px;
+}
+
+.login-screen-bg {  
+	background-color: #EFEFEF;
+}
+
+.reg-form div.mini-logo {
+	margin-bottom: 10px;
+}
+
+.reg-form div.mini-logo img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.reg-form form button.submit-btn {
+	background-color: #337ab7;
+	color: #E1F9F7;
+	border: none;
+	font-weight: bold;
+}
+
+.reg-form form button.reset-btn {
+	background-color: #E1F9F7;
+	color: #337ab7;
+	border: none;
+	font-weight: bold;
+}
+
+.reg-form form button.submit-btn:hover {
+	background-color: #337ab7;
+	color: #E1F9F7;
+	border: none;
+} 
+
+.reg-form form button.reset-btn:hover {
+	background-color: #E1F9F7;
+	color: #337ab7;
+	border: none;
+}
+
+.reg-form form button.submit-btn:focus, .reg-form form button.reset-btn:focus {
+	outline: none;
+}

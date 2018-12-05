@@ -1,0 +1,55 @@
+.main {
+	margin-top: -21px;
+	position: relative;
+}
+
+.content-1 .wrapper h2 {
+	font-family: Helvetica, Verdana, sans-serif;
+	text-align: center;
+	position: relative;
+	padding: 20px 0;
+	font-size: 36pt;
+	font-weight: normal;
+	color: #2D2D2D;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	line-height: 1.1;
+}
+
+.content-2 span#title {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.content-2 span#info {
+	font-size: 17px;
+}
+
+.content-2-1 {
+	text-align: justify;
+}
+
+.content-2-2, .content-2-3, .content-2-4, .content-2-5 {
+	padding-top: 1em;
+	text-align: justify;
+}
+
+@media screen and (max-width: 580px)
+{
+	.content-1 .wrapper h2 {
+		font-size: 27px;
+	}
+
+	.content-2 span#title {
+		font-size: 15px;
+	}
+
+	.content-2 span#info {
+		font-size: 12px;
+	}
+
+	.content-2-1, .content-2-2, .content-2-3, .content-2-4,
+	.content-2-5 {
+		font-size: 12px;
+	}   
+}

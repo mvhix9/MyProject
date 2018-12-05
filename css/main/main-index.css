@@ -1,0 +1,96 @@
+.main {
+	margin-top: -21px;
+	position: relative;
+}
+
+.banner-1, .banner-2 {
+	padding-left: 1.33333em;
+}
+
+.content-3 {
+	margin-top: 40px;
+}
+
+
+.content-2 .wrapper h2, .content-4 .wrapper h2 {
+	font-family: Helvetica, Verdana, sans-serif;
+	text-align: center;
+	position: relative;
+	padding: 20px 0;
+	font-size: 36pt;
+	font-weight: normal;
+	color: #2D2D2D;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	line-height: 1.1;
+}
+
+.row-number-1 {
+	padding-top: 1em;
+	border-top: 1px solid #dbdbdb80;
+}
+
+.row-number-1 .product a, .row-number-2 .product a {
+	text-decoration: none;
+	color: #000;
+}
+
+.text-center { 
+	text-align: center;
+}
+
+.row-number-1 .product #code, .row-number-2 .product #code{
+	margin-top: 1em;
+	color: #999;
+	font-size: 12px;
+}
+
+.row-number-1 .product #price, .row-number-2 .product #price {
+	margin-top: -1.5em;
+	font-weight: bold;
+}
+
+.row-number-2 {
+	margin-top: 1.5em;
+	padding-bottom: 1.5em;
+	border-bottom: 1px solid #dbdbdb80;
+}
+
+.row-number-1 img, .row-number-2 img {
+	transition: all ease-in-out 500ms;
+
+}
+
+.row-number-1 img:hover, .row-number-2 img:hover {
+	transform: scale(1.1);
+}
+
+@media screen and (max-width: 482px)
+{
+	.content-2 .wrapper h2 {
+		font-size: 27px
+	} 
+	.content-2 .wrapper h5 {
+		font-size: 18px;
+	}
+}
+
+.content-4 .click-more h5 {
+	font-family: Helvetica, Verdana, sans-serif;
+	text-align: center;
+	font-weight: normal;
+	font-size: 10pt;
+	color: #087baa;
+	margin-top: -25px;
+	margin-bottom: 10px;
+	line-height: 1.1;
+}
+
+.content-4 .click-more h5 a {
+	text-decoration: none;
+	color: #087baa;
+}
+
+.content-5 {
+	margin-top: 40px;
+}

@@ -1,0 +1,114 @@
+.main {
+	margin-top: -21px;
+	position: relative;
+}
+
+.title h6 a {
+	text-decoration: none;
+	color: #000;
+}
+
+.product-info .name h1 {
+	font-size: 18px;
+	letter-spacing: 0.75px;
+}
+
+.product-info .price label.variant-price {
+	font-size: 19px;
+	color: #595F61;
+	letter-spacing: 0.75px;
+	padding-left: 0.8em;
+}
+
+.product-info .price sup {
+	color: #595F61;
+	margin-left: -0.4em;
+	font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+    font-weight: bold;
+}
+
+.product-info #product-form .option {
+	margin: 7px 0;
+    font-size: 12px;
+    letter-spacing: 0.75px;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#product-form ul.color-option,
+#product-form ul.size-option {
+	margin: 0;
+	padding: 0;
+} 
+
+#product-form ul li {
+	list-style-type: none;
+	overflow: hidden;
+	float: left;
+	margin-right: 1em;
+}
+
+#product-form ul.size-option li label span {
+	display: block;
+    font-weight: 500;
+    padding: 5px 8px;
+    background: #fff;
+    cursor: pointer;
+    border: 1px solid #e0e0e0;
+}
+
+#product-form ul.size-option li input[type="radio"] {
+	display: none;
+}
+
+#product-form ul.size-option li input[type="radio"]:checked + span {
+	border-color: #087baa;
+}
+
+#product-form .btn {
+	display: block;
+	width: 100%;
+}
+
+.no-padding {
+	padding: 0;
+}
+
+#product-form .btn-wrapper {
+	margin-top: 10px;
+}
+
+#product-form .btn {
+	color: #087baa;
+    background-color: #e1f9f7;
+    display: block;
+    padding-top: 16px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+    display: block;
+}
+
+#product-form .btn a {
+	text-decoration: none;
+	display: block;
+}
+
+.product-info .product-detail {
+	margin-top: 10px;
+}
+
+.product-info .product-detail .title {
+	letter-spacing: 0.75px;
+	font-size: 20px;
+	text-transform: uppercase;
+	text-align: left;
+}
+
+.product-detail ul {
+	padding-left: 20px;
+}

@@ -1,0 +1,227 @@
+.header {
+	position: relative;
+}
+
+.top-bar-row {
+	display: flex;
+    align-items: center;
+ 	justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.top-bar-row > div {
+	margin: 0 20px;
+}
+
+.search-box {
+	padding-left: 0;
+	padding-right: 5px;
+	border: 1px solid #dbdbdb80;
+	border-radius: 14px;
+	position: relative;
+	z-index: 1;
+}
+
+.search-box form {
+	position: relative;
+}
+
+.search-box form #text-product {
+	padding: 10px;
+    border: 0;
+    height: 30px;
+    margin-left: 5px;
+    background: 0;
+    padding-right: 10px;
+    font-size: 12px;
+    color: #999;
+    transition: border .3s;
+    outline: 0;
+}
+
+.search-box form div.adv-search {
+	padding-left: 15px;
+	font-size: 12px;
+	color: #999;
+	padding-top: 6px;
+	padding-bottom: 5px;
+	float: left;
+	width: 130px;
+	height: 30px;
+	border-left: 1px solid #dbdbdb80;
+	border-radius: 14px;
+	display: block; 
+}
+
+.search-box form div.adv-search a {
+	color: #087baa;
+}
+
+.search-box form #submit-search {
+	position: absolute;
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    border: 0;
+    color: #fff;
+    margin-top: 2px;
+    right: 0px;
+    cursor: pointer;
+    border: 0;
+}
+
+.search-box form #submit-search:focus {
+	outline: none;
+}
+
+.search-box form #submit-search i {
+	font-size: 16px;
+	color: #087baa;
+}
+
+.no-shrink {
+	flex-shrink: 0;
+}
+
+.phone-number > div.wrapper,
+.cart > div.wrapper,
+.sign-up > div.wrapper, .sign-in > div.wrapper {
+	line-height: 36px;
+    margin-top: 0px;
+    font-size: 14px;
+    letter-spacing: -1px;
+}
+
+.phone-number > div.wrapper i, 
+.cart > div.wrapper i ,
+.sign-up > div.wrapper i, .sign-in > div.wrapper i {
+	font-size: 16px;
+    line-height: 36px;
+    background: #e1f9f7;
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    border-radius: 100%;
+    color: #087baa;
+}
+
+.phone-number > div.wrapper a, 
+.cart > div.wrapper a, 
+.sign-up > div.wrapper a, .sign-in > div.wrapper a {
+	text-decoration: none;
+	color: #000;
+}
+
+.phone-number > div.wrapper a:hover, 
+.cart > div.wrapper a:hover, 
+.sign-up > div.wrapper a:hover, .sign-in > div.wrapper a:hover {
+	color: #087baa;
+}
+
+.phone-number, .cart, .sign-up, .sign-in {
+	float: left;
+	padding-right: 3em;
+}
+
+.top-menu #navbar-brand {
+	display: none;
+}
+
+.top-menu #menu ul {
+	text-align: center;
+	padding-left: 120px; 
+}
+
+.top-menu #menu ul li a {
+	border-bottom: 2px solid transparent;
+	transition: all ease-in-out 0.5s;
+}
+
+.top-menu #menu ul li a:hover {
+	border-bottom: 2px solid #087baa;
+	color: #087baa;
+}
+
+.top-menu #menu ul li a#active {
+	border-bottom: 2px solid #087baa;
+	color: #087baa;
+}
+
+@media  screen and (max-width: 800px) {
+	.phone-number > div.wrapper span, 
+	.cart > div.wrapper span, 
+	.sign-up > div.wrapper span, .sign-in > div.wrapper span {
+		display: none;
+	}
+
+	.phone-number > div.wrapper i, 
+	.cart > div.wrapper i,
+	.sign-up > div.wrapper i, 
+	.sign-in > div.wrapper i {
+		font-size: 20px;
+		line-height: 40px;
+		width: 40px;
+		height: 40px;	
+	}
+
+	.phone-number, .cart,
+	.sign-up, .sign-in {
+		padding-right: 0.5em;
+	}
+}
+
+@media screen and (min-width: 800px) and (max-width: 1270px) {
+	.phone-number,
+	.sign-up, .sign-in, .cart  {
+		padding-right: 1em;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	.top-menu #menu ul li#mini-center {
+		margin-left: 3em;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.top-menu #navbar-brand {
+		display: unset;
+	}
+
+	.top-menu #menu ul {
+		padding-left: 0; 
+	}
+
+	.top-menu #menu ul li a:hover {
+		border: 0;
+	}
+
+	.top-menu #menu ul li a#active {
+		border: 0;
+	}
+}
+
+@media screen and (max-width: 1257px) {
+	.search-box form #text-product {
+		font-size: 12px;
+	}
+
+	.search-box form div.adv-search {
+		border-radius: unset;
+		border-left: none;
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.search-box form #text-product {
+		font-size: 9.5px;
+	}
+
+	.search-box form div.adv-search {
+		border-radius: unset;
+		border-left: none;
+		font-size: 9.5px;
+	}
+}

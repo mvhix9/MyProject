@@ -1,0 +1,22 @@
+.main {
+	margin-top: -21px;
+	position: relative;
+}
+
+.wrapper h2 {
+	font-family: Helvetica, Verdana, sans-serif;
+	text-align: center;
+	position: relative;
+	padding: 20px 0;
+	font-size: 36pt;
+	font-weight: normal;
+	color: #2D2D2D;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	line-height: 1.1;
+}
+
+.main .row-number-3 a {
+	text-decoration: none;
+	color: #333;
+}

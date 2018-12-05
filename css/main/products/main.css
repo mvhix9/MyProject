@@ -1,0 +1,110 @@
+.main {
+	margin-top: -21px;
+	position: relative;
+}
+
+.title .wrapper h2 {
+	font-family: Helvetica, Verdana, sans-serif;
+	text-align: center;
+	position: relative;
+	padding: 20px 0;
+	font-size: 36pt;
+	font-weight: normal;
+	color: #2D2D2D;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	line-height: 1.1;
+}
+
+.row-number-1 {
+	padding-top: 1em;
+	border-top: 1px solid #dbdbdb80;
+}
+
+.row-number-1 .product a, .row-number-2 .product a {
+	text-decoration: none;
+	color: #000;
+}
+
+.text-center { 
+	text-align: center;
+}
+
+.row-number-1 .product #code, .row-number-2 .product #code{
+	margin-top: 1em;
+	color: #999;
+	font-size: 12px;
+}
+
+.row-number-1 .product #price, .row-number-2 .product #price {
+	margin-top: -1.5em;
+	font-weight: bold;
+}
+
+.row-number-2 {
+	margin-top: 1.5em;
+	padding-bottom: 1.5em;
+	border-bottom: 1px solid #dbdbdb80;
+}
+
+.row-number-1 img, .row-number-2 img {
+	transition: all ease-in-out 500ms;
+
+}
+
+.row-number-1 img:hover, .row-number-2 img:hover {
+	transform: scale(1.1);
+}
+
+.row-number-3 .page-divide {
+	margin-top: 2em;
+	text-align: center;
+}
+
+.row-number-3 .page-divide .backward, 
+.row-number-3 .page-divide .forward,
+.row-number-3 .page-divide .next,
+.row-number-3 .page-divide .previous {
+	text-decoration: none;
+	color: #333;
+}
+
+.row-number-3 .page-divide .backward, 
+.row-number-3 .page-divide .previous {
+	padding-right: 1em;
+}
+
+.row-number-3 .page-divide .forward, 
+.row-number-3 .page-divide .next {
+	padding-left: 1em;
+}
+
+.row-number-3 .page-divide i {
+	border-radius: 100%;
+	background-color: #e1f9f7;
+	color: #087baa;
+	font-size: 13px;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+}
+
+.row-number-3 .page-divide span.page-active {
+	font-weight: bold;
+}
+
+.row-number-3 .page-divide span.page-active a {
+	text-decoration: none;
+	color: #333;
+}
+
+@media screen and (max-width: 768px) {
+	.row-number-2 {
+		padding-top: 2em;
+	}
+
+	.row-number-1 #last-product, .row-number-2 #last-product {
+		margin-top: 1em;
+	}
+}
